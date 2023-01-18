@@ -238,9 +238,9 @@
 
                                                                         <div class="form-group">
                                                                             <label for="keterangan">Keterangan</label>
-                                                                            <input type="text" class="form-control"
+                                                                            <textarea class="form-control"
                                                                                 id="keterangan" name="keterangan"
-                                                                                value="<?=$keterangan?>">
+                                                                                rows="2"><?=$keterangan?></textarea>
                                                                         </div>
 
                                                                         <button type="submit"

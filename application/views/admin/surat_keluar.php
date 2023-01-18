@@ -180,7 +180,8 @@
                                                                             id="file_surat_old" name="file_surat_old"
                                                                             value="<?=$file_surat?>" hidden>
                                                                         <input type="text" class="form-control"
-                                                                            id="file_nota_dinas_old" name="file_nota_dinas_old"
+                                                                            id="file_nota_dinas_old"
+                                                                            name="file_nota_dinas_old"
                                                                             value="<?=$file_nota_dinas?>" hidden>
                                                                         <button type="submit"
                                                                             class="btn btn-primary">Ya</button>
@@ -235,10 +236,11 @@
 
                                                                         <div class="form-group">
                                                                             <label for="keterangan">Keterangan</label>
-                                                                            <input type="text" class="form-control"
+                                                                            <textarea class="form-control"
                                                                                 id="keterangan" name="keterangan"
-                                                                                value="<?=$keterangan?>">
+                                                                                rows="2"><?=$keterangan?></textarea>
                                                                         </div>
+                                                                       
 
                                                                         <button type="submit"
                                                                             class="btn btn-primary">Submit</button>
