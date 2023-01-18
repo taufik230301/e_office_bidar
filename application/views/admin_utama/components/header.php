@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>E-Kesra | Muara Enim</title>
 
+
+<link rel="icon" type="image/png" href="<?= base_url();?>assets/gambar/logo_muara_enim.ico" />
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 <!-- Font Awesome -->

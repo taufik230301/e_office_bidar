@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E-Kesra | Log in</title>
 
+    <link rel="icon" type="image/png" href="<?= base_url();?>assets/gambar/logo_muara_enim.ico" />
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -17,6 +18,14 @@
     <link rel="stylesheet" href="<?=base_url();?>assets/admin/dist/css/adminlte.min.css">
     <!-- Sweetalert -->
     <script src="<?=base_url();?>node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+    body {
+        background-image: url('http://localhost/e-office/assets/gambar/login_background.jpeg');
+        background-repeat: no-repeat;
+        background-size: 130% 130%;
+        background-position: right bottom;
+    }
+    </style>
 </head>
 
 <body class="hold-transition login-page">
@@ -41,11 +50,12 @@
 
     <div class="login-box">
         <div class="login-logo">
-            <a href="<?=base_url();?>assets/admin/index2.html">E-OFFICE</a>
+            <img src="<?=base_url();?>assets/gambar/logo_muara_enim.jpg" style="width: 100px" alt="">
         </div>
         <!-- /.login-logo -->
         <div class="card">
             <div class="card-body login-card-body">
+                <p class="login-box-msg">E-KESRA</p>
                 <p class="login-box-msg">Silahkan Login</p>
 
                 <form action="<?=base_url();?>Login/login_process" method="post">

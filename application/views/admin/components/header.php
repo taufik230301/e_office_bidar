@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>E-Kesra | Muara Enim</title>
 
+
+<link rel="icon" type="image/png" href="<?= base_url();?>assets/gambar/logo_muara_enim.ico" />
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 <!-- Font Awesome -->
@@ -24,10 +26,12 @@
 <!-- summernote -->
 <link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/summernote/summernote-bs4.min.css">
 
-  <!-- DataTables -->
-  <link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
-  <link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+<!-- DataTables -->
+<link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet"
+    href="<?=base_url();?>assets/admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+<link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 
-   <!-- Sweetalert -->
-   <script src="<?= base_url(); ?>node_modules/sweetalert/dist/sweetalert.min.js"></script>
+<!-- Sweetalert -->
+<script src="<?= base_url(); ?>node_modules/sweetalert/dist/sweetalert.min.js"></script>
+
