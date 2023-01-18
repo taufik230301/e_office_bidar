@@ -26,6 +26,7 @@
         </div>
 
         <!-- Navbar -->
+        
         <?php $this->load->view('admin/components/navbar') ?>
 
         <!-- /.navbar -->

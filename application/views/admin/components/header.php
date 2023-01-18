@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/jqvmap/jqvmap.min.css">
 <!-- Theme style -->
 <link rel="stylesheet" href="<?=base_url();?>assets/admin/dist/css/adminlte.min.css">
+<link rel="stylesheet" href="<?=base_url();?>assets/style.css">
 <!-- overlayScrollbars -->
 <link rel="stylesheet" href="<?=base_url();?>assets/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
 <!-- Daterange picker -->
